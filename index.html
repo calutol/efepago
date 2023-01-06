@@ -1,0 +1,591 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>fpagos.com</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://kit.fontawesome.com/a39f274e63.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!---/****** Header top, operations number and promos index ******/--->
+    <header class="menu_index alert alert-dismissible fade show" role="alert">
+      <section class="container-fluid promo_index fade show">
+        <div class="text-center">
+          <p class="menu_index__nro-op">
+            Número de operaciones totales de nuestros usuarios <span class="menu_index__nro-op-span">2327<i class="bi bi-caret-up-fill"></i></span>
+          </p>
+        </div>
+      </section>
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </header>
+    <!---/****** Nav index ******/--->
+    <nav class="navbar sticky-top navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#">FPAGOS</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav flex-row flex-wrap ms-md-auto">
+            <li class="nav-item menu_index__li">
+              <a class="nav-link nav-item__a" aria-current="page" href="#">Precios</a>
+            </li>
+            <li class="nav-item menu_index__li">
+              <a class="nav-link nav-item__a" href="#">Servicios</a>
+            </li>
+            <li class="nav-item menu_index__li">
+              <a class="nav-link nav-item__a" href="#">Developers</a>
+            </li>
+            <li class="nav-item menu_index__li">
+              <a class="nav-link nav-item__a" href="#">Nosotros</a>
+            </li>
+            <li class="nav-item menu_index__li">
+              <a class="nav-link nav-item__a" href="#">¡Pruébalo Gratis!</a>
+            </li>              
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!---/****** Main index ******/--->
+    <section class="container-xxl bd-gutter mt-3 my-md-4 bd-layout main-index">
+      <!---/### Simple head index ###/--->
+      <div class="simple-head">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-6">
+              <!---/* Login index */--->
+              <div class="login-index">
+                <div class="login-index__box-login">
+                  <h2 class="login-index__h2">Inicia sesión</h2>
+                  <form>
+                    <div class="input-group mb-3">
+                      <span class="input-group-text"><i class="bi bi-person"></i></span>
+                      <div class="form-floating">
+                        <input type="text" class="form-control" id="floatingInputGroup1" placeholder="Username">
+                        <label for="floatingInputGroup1">Usuario</label>
+                      </div>
+                    </div>
+                    <div class="input-group mb-3">
+                      <span class="input-group-text"><i class="bi bi-eye-slash"></i></span>
+                      <div class="form-floating">
+                        <input type="password" class="form-control login-index__input" id="floatingPassword" placeholder="Password">
+                        <label for="floatingPassword">Contraseña</label>
+                      </div>
+                    </div>
+                    <div class="d-grid gap-2">
+                      <button class="btn btn-outline-primary login-index__button" type="button">Ingresar</button>
+                    </div>
+                  </form>
+                  <hr>
+                  <a class="login-index__a" href="">
+                    <img class="img-fluid login-index__img" src="assets/img/playA.png" alt="">
+                  </a>
+                  <a class="login-index__a" href="">
+                    <img class="img-fluid login-index__img" src="assets/img/storeA.png" alt="">
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <!---/* Description general of services */--->
+              <div class="txt-header-index">
+                <h1 class="txt-header-index__h1">Recibe pagos con pago móvil, gestiona yoooo inventario y actualiza precios al instante</h1>
+                <p>Conecta tu sistema de ventas con nuestra solución de pagos <span class="txt-header-index__p-span">basada en validación de transferencias, actualización y gestión de inventario con un sistema integrado</span></p>
+                <div class="txt-header-index__contacto">
+                  <a class="txt-header-index__a" href="">¡Contáctanos ahora!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!---/### Services index ###/--->
+      <div class="container-fluid services-index">
+        <div class="container">
+          <!---/* title services index */--->
+          <div class="services-index__title">
+            <h2 class="text-center"><span class="services-index__title-span">En la Plataforma FPAGOS,</span> con nuestros módulos solucionamos la validación de pago movil y gestion de inventarios. Te ofrecemos las herramientas para que crezca tu negocio</h2>
+          </div>
+          <!---/* Module services index */--->
+          <div class="row row-cols-1 row-cols-md-3 g-4 services-index__modules">
+            <div class="col">
+              <!---/* Module services index card UNO */--->
+              <div class="card services-index__modules-card">
+                <img class="img-fluid services-index__modules-img" src="assets/img/computer.png" class="card-img-top" alt="...">
+                <div class="card-body services-index__modules-card-body">
+                  <h5 class="card-title">Validador de pago movil</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="text-center">
+                    <a class="services-index__modules-a item tres" href="#">Ver modulo<i class="fa-solid fa-angle-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <!---/* Module services index card DOS */--->
+              <div class="card services-index__modules-card">
+                <img class="img-fluid services-index__modules-img" src="assets/img/computer.png" class="card-img-top" alt="...">
+                <div class="card-body services-index__modules-card-body">
+                  <h5 class="card-title">Gestion de inventario</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="text-center">
+                    <a class="services-index__modules-a" href="#">Ver modulo<i class="fa-solid fa-angle-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <!---/* Module services index card TRES */--->
+              <div class="card services-index__modules-card">
+                <img class="img-fluid services-index__modules-img" src="assets/img/computer.png" class="card-img-top" alt="...">
+                <div class="card-body services-index__modules-card-body">
+                  <h5 class="card-title">Pago Expres</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                  <div class="text-center">
+                    <a class="services-index__modules-a" href="#">Ver modulo<i class="fa-solid fa-angle-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!---/### Dividing section index ###/--->
+      <div class="container-fluid dividing-index">
+        <div class="container p-5">
+          <h4 class="dividing-index__h4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa molestiae aut consequuntur sapiente numquam enim autem velit. Provident, tempore sit hic fugiat, unde quia, odio, sequi nobis totam placeat deleniti.</h4>
+          <div class="dividing-index__list">
+            <div class="d-flex justify-content-center">
+              <div class="p-2"><i class="bi bi-check2-circle"></i>Flex item 1</div>
+              <div class="p-2"><i class="bi bi-check2-circle"></i>Flex item 2</div>
+              <div class="p-2"><i class="bi bi-check2-circle"></i>Flex item 3</div>
+              <div class="p-2"><i class="bi bi-check2-circle"></i>Flex item 4</div>
+              <div class="p-2"><i class="bi bi-check2-circle"></i>Flex item 5</div>
+            </div>
+          </div>
+          <div class="dividing-index__button">
+            <a class="dividing-index__button-a" href="#">¡Contáctanos ahora!</a>
+          </div>
+        </div>
+      </div>
+      <!---/### Features section index ###/--->
+      <div class="container text-center features-index">
+        <!---/* features title */--->
+        <h2 class="features-index__h2"><span class="features-index__span">En FPAGOS</span>, Conectamos características, docentes, padres de familia y administradores.</h2>
+        <!---/* features main */--->
+        <div class="row features-index__main">
+          <!---/* features image */--->
+          <div class="col-lg-6">
+            <img class="img-fluid" src="assets/img/computer2.png" alt="">
+          </div>
+          <!---/* features contents */--->
+          <div class="col-lg-6">
+            <!---/* features contents UNO */--->
+            <div class="features-index__block d-flex">
+              <div class="features-index__block-icon">
+                <i class="bi bi-blockquote-left"></i>
+              </div>
+              <div class="features-index__block-text">
+                <h3 class="features-index__block-text-h3">Hola mundo</h3>
+                <p class="features-index__block-text-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eveniet id, reiciendis autem similique suscipit dolores voluptates alias dignissimos. Odit doloribus iusto velit nesciunt quod inventore, sit cumque dolor mollitia!</p>
+              </div>
+            </div>
+            <!---/* features contents DOS*/--->
+            <div class="component-block d-flex">
+              <div class="features-index__block-icon">
+                <i class="bi bi-blockquote-left"></i>
+              </div>
+              <div class="features-index__block-text">
+                <h3 class="features-index__block-text-h3">Hola mundo</h3>
+                <p class="features-index__block-text-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eveniet id, reiciendis autem similique suscipit dolores voluptates alias dignissimos. Odit doloribus iusto velit nesciunt quod inventore, sit cumque dolor mollitia!</p>
+              </div>
+            </div>
+            <!---/* features contents TRES*/--->
+            <div class="component-block d-flex">
+              <div class="features-index__block-icon">
+                <i class="bi bi-blockquote-left"></i>
+              </div>
+              <div class="features-index__block-text">
+                <h3 class="features-index__block-text-h3">Hola mundo</h3>
+                <p class="features-index__block-text-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eveniet id, reiciendis autem similique suscipit dolores voluptates alias dignissimos. Odit doloribus iusto velit nesciunt quod inventore, sit cumque dolor mollitia!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!---/### Dividing dos section index ###/--->
+      <div class="container-fluid dividing-dos-index">
+        <div class="container p-5">
+          <h4 class="dividing-dos-index__h4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni porro harum rem libero, magnam quidem doloremque sunt molestias soluta error quaerat vitae blanditiis repellendus odit praesentium nemo, suscipit explicabo voluptate.</h4>
+          <div class="dividing-dos-index__list">
+            <div class="d-flex justify-content-center">
+              <div class="p-2"><i class="bi bi-check2-circle"></i>Flex item 1</div>
+              <div class="p-2"><i class="bi bi-check2-circle"></i>Flex item 2</div>
+              <div class="p-2"><i class="bi bi-check2-circle"></i>Flex item 3</div>
+              <div class="p-2"><i class="bi bi-check2-circle"></i>Flex item 4</div>
+              <div class="p-2"><i class="bi bi-check2-circle"></i>Flex item 5</div>
+            </div>
+          </div>
+          <div class="dividing-dos-index__button">
+            <a class="dividing-dos-index__button-a" href="#">¡Contáctanos ahora!</a>
+          </div>
+        </div>
+      </div>
+      <!---/### Price section index ###/--->
+      <div class="container text-center price-index">
+        <h2><span>En FPAGOS,</span> la implementación es muy sencilla</h2>
+        <div class="price-index__list">
+          <div class="d-flex justify-content-center">
+            <div class="p-2"><span class="price-index__list-span">Paso 1:</span> Elige un plan anual</div>
+            <div class="p-2"><span class="price-index__list-span">Paso 2:</span> Lo integramos</div>
+            <div class="p-2"><span class="price-index__list-span">Paso 3:</span> ¡Te hacemos crecer!</div>
+          </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4 price-index-main">
+          <div class="col">
+            <div class="card h-100 price-index-main__card">
+              <!--<img src="..." class="card-img-top" alt="...">-->
+              <div class="card-body p-4">
+                <h5 class="card-title price-index-main__h5">Plan Básico</h5>
+                <div class="price-index-main__subtitle">Solución ideal para comenzar</div>
+                <div class="price-index-main__boxprince">
+                  <span class="price-index-main__priceuno"><i class="bi bi-patch-check price-index-main__boxprince-i"></i>Gratis</span>
+                  <span class="price-index-main__pricedos">comisión de 1,5%</span>
+                </div>
+                <div class="price-index-main__priceo">Gratis</div>
+                <div class="price-index-main__bottom">
+                  <a class="price-index-main__bottom-a" href="">Comenzar ahora</a>
+                </div>
+                <div class="price-index-main__infomes">La comisión se debía automáticamente cada mes</div>
+                <hr class="price-index-main__hr">
+                <!---/* Service include card price plan basic */--->
+                <div class="price-index-main__si">
+                  <p class="card-text price-index-main__si-p">Servicios incluidos</p>
+                  <!---/* Service include UNO */--->
+                  <div class="d-flex">
+                    <div class="p-2"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-check price-index-main__check" viewBox="0 0 16 16">
+                      <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                    </svg>
+                  </div>
+                    <div class="p-2 flex-grow-1">Flex item</div>
+                    <div class="p-2 tt" data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur."><i class="fa-regular fa-circle-question price-index-main__q"></i></div>
+                  </div>
+                  <!---/* Service include DOS */--->
+                  <div class="d-flex">
+                    <div class="p-2 ">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-check price-index-main__check" viewBox="0 0 16 16">
+                      <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                    </svg>
+                    </div>
+                    <div class="p-2 flex-grow-1">Flex item</div>
+                    <div class="p-2 tt" data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur."><i class="fa-regular fa-circle-question"></i></div>
+                  </div>
+                  <!---/* Service include Tres*/--->
+                   <div class="d-flex">
+                    <div class="p-2 ">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-check price-index-main__check" viewBox="0 0 16 16">
+                      <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                    </svg>
+                    </div>
+                    <div class="p-2 flex-grow-1">Flex item</div>
+                    <div class="p-2 tt" data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur."><i class="fa-regular fa-circle-question"></i></div>
+                  </div>
+                  <!---/* Service include CUATRO */--->
+                  <div class="d-flex">
+                    <div class="p-2 ">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-check price-index-main__check" viewBox="0 0 16 16">
+                      <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                    </svg>
+                    </div>
+                    <div class="p-2 flex-grow-1">Flex item</div>
+                    <div class="p-2 tt" data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur."><i class="fa-regular fa-circle-question"></i></div>
+                  </div>
+                  <div class="text-center text-center price-index-main__si-bottom">
+                    <a class="price-index-main__si_bottom-std" href=""><span>Ver mas características</span><i class="fa-solid fa-angle-down"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 price-index-main__card">
+              <!--<img src="..." class="card-img-top" alt="...">-->
+              <div class="price-index-main__card-popular">
+                <span class="price-index-main__card-popular-span">Más popular</span>
+              </div>
+              <div class="card-body p-4">
+                <h5 class="card-title price-index-main__h5">Plan Avanzado</h5>
+                <div class="price-index-main__subtitle">Plan ideal para Avanzados</div>
+                <div class="price-index-main__boxprince">
+                  <span class="price-index-main__priceuno-avanzado"><i class="bi bi-patch-check price-index-main__boxprince-ia"></i>149,99 $</span>
+                  <span class="price-index-main__pricedos-avanzado">1,5% de comisión</span>
+                </div>
+                <div class="price-index-main__priceo">100<span class="price-index-main__card-xmes">$/mes</span></div>
+                <div class="price-index-main__bottom">
+                  <a class="price-index-main__bottom-av" href="">Comenzar ahora</a>
+                </div>
+                <div class="price-index-main__infomes">La comisión se debía automáticamente cada mes</div>
+                <hr class="price-index-main__hr">
+                <!---/* Service include card price Avanzado*/--->
+                <div class="price-index-main__si">
+                  <p class="card-text price-index-main__si-p">Servicios incluidos</p>
+                  <!---/* Service include UNO */--->
+                  <div class="d-flex">
+                    <div class="p-2 ">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-check price-index-main__check" viewBox="0 0 16 16">
+                      <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                    </svg>
+                    </div>
+                    <div class="p-2 flex-grow-1">Flex item</div>
+                    <div class="p-2 tt" data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur."><i class="fa-regular fa-circle-question"></i></div>
+                  </div>
+                  <!---/* Service include DOS */--->
+                  <div class="d-flex">
+                    <div class="p-2 ">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-check price-index-main__check" viewBox="0 0 16 16">
+                      <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                    </svg>
+                    </div>
+                    <div class="p-2 flex-grow-1">Flex item</div>
+                    <div class="p-2 tt" data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur."><i class="fa-regular fa-circle-question"></i></div>
+                  </div>
+                  <!---/* Service include Tres*/--->
+                   <div class="d-flex">
+                    <div class="p-2 ">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-check price-index-main__check" viewBox="0 0 16 16">
+                      <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                    </svg>
+                    </div>
+                    <div class="p-2 flex-grow-1">Flex item</div>
+                    <div class="p-2 tt" data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur."><i class="fa-regular fa-circle-question"></i></div>
+                  </div>
+                  <!---/* Service include CUATRO */--->
+                  <div class="d-flex">
+                    <div class="p-2 ">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-check price-index-main__check" viewBox="0 0 16 16">
+                      <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                    </svg>
+                    </div>
+                    <div class="p-2 flex-grow-1">Flex item</div>
+                    <div class="p-2 tt" data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur."><i class="fa-regular fa-circle-question"></i></div>
+                  </div>
+                  <div class="text-center price-index-main__si-bottom">
+                    <a class="price-index-main__si_bottom-av" href="">Ver más características<i class="fa-solid fa-angle-down"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 price-index-main__card">
+              <!--<img src="..." class="card-img-top" alt="...">-->
+              <div class="card-body p-4">
+                <div class="price-index-main__card-star">
+                  <i class="fa-solid fa-medal price-index-main__card-star__i"></i>
+                </div>
+                <h5 class="card-title price-index-main__h5">Plan Premium</h5>
+                <div class="price-index-main__subtitle">Optimizado para</div>
+                <div class="price-index-main__boxprince">
+                  <span class="price-index-main__priceuno-avanzado"><i class="bi bi-patch-check price-index-main__boxprince-i"></i>249,00 $</span>
+                  <span class="price-index-main__pricedos">1,5% de comisión</span>
+                </div>
+                <div class="price-index-main__priceo">200<span class="price-index-main__card-xmes">$/mes</span></div>
+                <div class="price-index-main__bottom">
+                  <a class="price-index-main__bottom-a" href="">Comenzar ahora</a>
+                </div>
+                <div class="price-index-main__infomes">La comisión se debía automáticamente cada mes</div>
+                <hr class="price-index-main__hr">
+                <!---/* Service include card price Premiun*/--->
+                <div class="price-index-main__si">
+                  <p class="card-text price-index-main__si-p">Servicios incluidos</p>
+                  <!---/* Service include UNO */--->
+                  <div class="d-flex">
+                    <div class="p-2 ">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-check price-index-main__check" viewBox="0 0 16 16">
+                      <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                    </svg>
+                    </div>
+                    <div class="p-2 flex-grow-1">Flex item</div>
+                    <div class="p-2 tt" data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur."><i class="fa-regular fa-circle-question"></i></div>
+                  </div>
+                  <!---/* Service include DOS */--->
+                  <div class="d-flex">
+                    <div class="p-2 ">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-check price-index-main__check" viewBox="0 0 16 16">
+                      <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                    </svg>
+                    </div>
+                    <div class="p-2 flex-grow-1">Flex item</div>
+                    <div class="p-2 tt" data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur."><i class="fa-regular fa-circle-question"></i></div>
+                  </div>
+                  <!---/* Service include Tres*/--->
+                   <div class="d-flex">
+                    <div class="p-2 ">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-check price-index-main__check" viewBox="0 0 16 16">
+                      <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                    </svg>
+                    </div>
+                    <div class="p-2 flex-grow-1">Flex item</div>
+                    <div class="p-2 tt" data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur."><i class="fa-regular fa-circle-question"></i></div>
+                  </div>
+                  <!---/* Service include CUATRO */--->
+                  <div class="d-flex">
+                    <div class="p-2 ">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-check price-index-main__check" viewBox="0 0 16 16">
+                      <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                    </svg>
+                    </div>
+                    <div class="p-2 flex-grow-1">Flex item</div>
+                    <div class="p-2 tt" data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur."><i class="fa-regular fa-circle-question"></i></div>
+                  </div>
+                  <div class="text-center text-center price-index-main__si-bottom">
+                    <a class="price-index-main__si_bottom-std" href="">Ver mas características<i class="fa-solid fa-angle-down"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!---/### Dividing tres section index ###/--->
+      <div class="container-fluid text-center dividing-tres-index">
+        <div class="container p-5">
+          <h4 class="dividing-tres-index__h4">Contáctenos, la implementación en tu colegio es sumamente rápida</h4>
+          <p>Los requisitos son muy sencillos</p>
+          <div class="dividing-tres-index__button">
+            <a class="dividing-tres-index-a" href="">¡Contáctanos ahora!</a>
+          </div>
+        </div>
+      </div>
+      <!---/### Include section index ###/--->
+        <div class="container text-center include-index">
+          <div class="row">
+            <div class="col-lg-6">
+              <img class="img-fluid" src="assets/img/computer2.png" alt="">
+            </div>
+            <div class="col-lg-6">
+              <div class="include-index__list">
+                <ul class="include-index__ul">
+                  <li class="include-index__li"><i class="bi bi-check-lg"></i><h3>Actualizaciones constantes incluídas</h3></li>
+                  <li class="include-index__li"><i class="bi bi-check-lg"></i><h3>Capacitación incluída</h3></li>
+                  <li class="include-index__li"><i class="bi bi-check-lg"></i><h3>Soporte técnico todo el año</h3></li>
+                  <li class="include-index__li"><i class="bi bi-check-lg"></i><h3>Precio único sin costos escondidos</h3></li>
+                  <li class="include-index__li"><i class="bi bi-check-lg"></i><h3>Sin preocupaciones</h3></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!---/****** Footer index ******/--->
+    <footer class="footer-index">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-3">
+            <ul class="footer-index__ul">
+              <li class="footer-index__li"><h4>FPAGOS</h4></li>
+              <li class="footer-index__li"><a href="">Panamá, Ciudad de Panamá, Punta Pacífica, PH Oceania Business Plaza, Torre 1000, Piso 49</a></li>
+              <li class="footer-index__li"><a href="">E-Mail: clientes@fpagos.com</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3">
+            <ul class="footer-index__ul">
+              <li class="footer-index__li"><h4>Nuestras Soluciones</h4></li>
+              <li class="footer-index__li"><a href="">Validador de pago movil</a></li>
+              <li class="footer-index__li"><a href="">Gestion de inventario</a></li>
+              <li class="footer-index__li"><a href="">Pago Expres</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3">
+              <ul class="footer-index__ul">
+                <li class="footer-index__li"><h4>Empresa</h4></li>
+                <li class="footer-index__li"><a href="">Terminos y Condiciones</a></li>
+                <li class="footer-index__li"><a href="">Preguntas Frencuentes</a></li>
+                <li class="footer-index__li"><a href="">Historia de fpagos</a></li>
+                <li class="footer-index__li"><a href="">Ayuda</a></li>
+              </ul>
+          </div>
+          <div class="col-lg-3">
+            <ul class="footer-index__ul">
+              <li class="footer-index__li"><h4>Contáctenos</h4></li>
+              <li class="footer-index__li"><a href="">WhatsAPP de Ventas: (+507) 6803-0884</a></li>
+              <li class="footer-index__li"><a href="">Siguenos en nuestras redes sociales</a></li>
+              <li class="footer-index__li"><a href="">Instagram youtube</a></li>
+            </ul>
+            
+          </div>
+        </div>
+      </div>
+      <div class="last-footer">
+        <div class="container text-center last-footer__content">
+          <div class="row">
+            <div class="col-lg-6 last-footer__dr">
+              <p class="last-footer__dr-p">Todos los derechos reservados © 2022 - Fpagos by Fookel</p>
+            </div>
+            <div class="col-lg-6 last-footer__version">
+              <p class="last-footer__version-p">Versión 2.1.2023</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/tooltips.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/op-index.js"></script>
+  </body>
+</html>
