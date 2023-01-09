@@ -25,6 +25,16 @@ body{
 background: linear-gradient(42deg, rgba(255,204,110,1) 24%, rgba(245,222,179,1) 100%);
 	height: auto;
 }
+.create-user-index{
+	font-weight: 500;
+    border-radius: 6px;
+    background-color: #30d375;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.create-user-index i{
+	margin-left: 4px;
+}
 /*---------------------- Modulos nav ----------------------*/
 .no-background{
 	border: 0;
