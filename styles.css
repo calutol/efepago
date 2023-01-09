@@ -90,6 +90,13 @@ background: linear-gradient(42deg, rgba(255,204,110,1) 24%, rgba(245,222,179,1) 
 .login-index__h2{
 	margin-bottom: 1rem;
 }
+.login-registro-index{
+	margin-top: 14px;
+}
+.login-registro-index a{
+	font-size: 14px;
+    color: #868a8a;
+}
 .login-index__a{
 	color: #0054D1;
     word-wrap: break-word;
@@ -121,7 +128,7 @@ background: linear-gradient(42deg, rgba(255,204,110,1) 24%, rgba(245,222,179,1) 
     text-decoration: none;
 }
 .simple-head{
-	padding: 40px 0 200px;
+	padding: 20px 0 200px;
 	position: relative;
 }
 .simple-head::before {
