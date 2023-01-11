@@ -593,6 +593,12 @@ a.services-index__modules-a:hover::before {
 	.services-index{
 		
 	}
+	.simple-head{
+		padding: 20px 0 76px 0;
+	}
+	.simple-head::before{
+		min-height: 1056px;
+	}
 	.features-index__main-content{
 		padding-top: 3rem !important;
 	}
