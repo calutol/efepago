@@ -635,6 +635,9 @@ a.services-index__modules-a:hover::before {
 	.include-index__li-h3{
 		font-size: calc(1.275rem + .3vw);
 	}
+	.footer-index__ul{
+		margin-bottom: 26px;
+	}
 }
 @media (max-width: 768px) { 
 	.login-index{
