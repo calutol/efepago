@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lexend+Deca:wght@100;200;300;400;600;700;800;900&display=swap');
 body{
-	
+	font-family: 'Lexend Deca', sans-serif;
 }
 /*---------------------- Modulos header ----------------------*/
 .menu_index{
@@ -31,8 +32,11 @@ background: linear-gradient(42deg, rgba(255,204,110,1) 24%, rgba(245,222,179,1) 
     background-color: #30d375;
     padding-right: 10px;
     padding-left: 10px;
-    /*box-shadow: 0 0.375em 0 #055160;
-    border-radius: 0.5em;*/
+    box-shadow: 0 0.375em 0 #074eb8;
+    border-radius: 0.5em;
+}
+.create-user-index:hover{
+	border: 2px solid #074eb8;
 }
 .create-user-index i{
 	margin-left: 4px;
@@ -75,10 +79,14 @@ background: linear-gradient(42deg, rgba(255,204,110,1) 24%, rgba(245,222,179,1) 
 	padding: 0;
 	margin-bottom: 0px !important;
 }
+/*---------------------- Login -----------------------*/
 .login-index{
 	width: 360px;
 	background-color: white;
 	border-radius: 10px;
+}
+.input-group-text{
+	padding: 0 18px;
 }
 .login-index__box-login{
 	padding: 34px;
