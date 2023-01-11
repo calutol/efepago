@@ -31,6 +31,8 @@ background: linear-gradient(42deg, rgba(255,204,110,1) 24%, rgba(245,222,179,1) 
     background-color: #30d375;
     padding-right: 10px;
     padding-left: 10px;
+    /*box-shadow: 0 0.375em 0 #055160;
+    border-radius: 0.5em;*/
 }
 .create-user-index i{
 	margin-left: 4px;
