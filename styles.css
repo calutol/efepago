@@ -259,7 +259,7 @@ a.services-index__modules-a:hover::before {
 	font-weight: 800;
 }
 .features-index__main{
-	padding-top: 3.8rem;
+	padding-top: 60px;
 }
 .features-index__block-text{
 	text-align: initial;
@@ -589,6 +589,18 @@ a.services-index__modules-a:hover::before {
 	}
 	.txt-header-index__contacto{
 		margin-bottom: 60px;
+	}
+	.dividing-index .p-5{
+		padding: 3rem 1rem  3rem 1rem !important;
+	}
+	.dividing-dos-index .p-5{
+		padding: 3rem 1rem  3rem 1rem !important;
+	}
+	.dividing-tres-index .p-5{
+		padding: 3rem 1rem  3rem 1rem !important;
+	}
+	.price-index-main__bottom{
+		padding: 16px 0;
 	}
 	.services-index{
 		
